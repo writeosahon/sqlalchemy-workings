@@ -10,4 +10,4 @@ app = Flask(__name__) # create Flask app instance
 # DEFINE ROUTES
 @app.route('/')
 def index(): # define index route
-    return "HELLO WORLD FROM ME TO YOU!!" cx
+    return "HELLO WORLD FROM ME TO YOU!!"
