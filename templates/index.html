@@ -1,0 +1,11 @@
+<html>
+<head>
+<title>{{ name|upper}}'S Page</title>
+</head>
+<body>
+Welcome {{ name|title }}
+<div>
+The URL for this page is {{page_url("displayname", name=name, _external=True)|urlize}}
+</div>
+</body>
+</html>
